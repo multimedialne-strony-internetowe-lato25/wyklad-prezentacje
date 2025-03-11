@@ -1,2 +1,2 @@
-# wyklad-prezentacje
-Repozytorium na prezentacje na wykład
+Link do strony głównej:
+Sentencee.github.io
