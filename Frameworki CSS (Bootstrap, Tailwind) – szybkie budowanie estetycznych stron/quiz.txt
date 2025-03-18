@@ -1,0 +1,104 @@
+1. Który framework oferuje podejście utility-first?
+   - A) Bootstrap
+   - B) Tailwind CSS
+   - C) Oba
+   - D) Żaden
+   Odpowiedź: B) Tailwind CSS
+
+2. Który framework jest lepszy do szybkiego prototypowania?
+   - A) Bootstrap
+   - B) Tailwind CSS
+   - C) Oba
+   - D) Żaden
+   Odpowiedź: A) Bootstrap
+
+3. Który framework wymaga więcej wiedzy z CSS?
+   - A) Bootstrap
+   - B) Tailwind CSS
+   - C) Oba
+   - D) Żaden
+   Odpowiedź: B) Tailwind CSS
+
+4. Który framework oferuje gotowe komponenty?
+   - A) Bootstrap
+   - B) Tailwind CSS
+   - C) Oba
+   - D) Żaden
+   Odpowiedź: A) Bootstrap
+
+5. Który framework jest bardziej elastyczny w dostosowywaniu designu?
+   - A) Bootstrap
+   - B) Tailwind CSS
+   - C) Oba
+   - D) Żaden
+   Odpowiedź: B) Tailwind CSS
+
+6. Który framework ma większy rozmiar pliku domyślnie?
+   - A) Bootstrap
+   - B) Tailwind CSS
+   - C) Oba
+   - D) Żaden
+   Odpowiedź: A) Bootstrap
+
+7. Który framework wymusza spójny wygląd?
+   - A) Bootstrap
+   - B) Tailwind CSS
+   - C) Oba
+   - D) Żaden
+   Odpowiedź: A) Bootstrap
+
+8. Który framework pozwala na tworzenie unikalnych designów bez pisania własnego CSS?
+   - A) Bootstrap
+   - B) Tailwind CSS
+   - C) Oba
+   - D) Żaden
+   Odpowiedź: B) Tailwind CSS
+
+9. Który framework domyślnie opiera się na filozofii "mobile-first"?
+   - A) Bootstrap
+   - B) Tailwind CSS
+   - C) Oba
+   - D) Żaden
+   Odpowiedź: A) Bootstrap
+
+10. Który framework oferuje lepszą optymalizację rozmiaru pliku po konfiguracji?
+    - A) Bootstrap
+    - B) Tailwind CSS
+    - C) Oba
+    - D) Żaden
+    Odpowiedź: B) Tailwind CSS
+
+11. Który framework ma bardziej rozbudowaną dokumentację?
+    - A) Bootstrap
+    - B) Tailwind CSS
+    - C) Oba
+    - D) Żaden
+    Odpowiedź: A) Bootstrap
+
+12. Który framework jest lepszy dla początkujących?
+    - A) Bootstrap
+    - B) Tailwind CSS
+    - C) Oba
+    - D) Żaden
+    Odpowiedź: A) Bootstrap
+
+13. Który framework pozwala na łatwiejsze tworzenie responsywnych układów?
+    - A) Bootstrap
+    - B) Tailwind CSS
+    - C) Oba
+    - D) Żaden
+    Odpowiedź: C) Oba
+
+14. Który framework jest bardziej popularny wśród projektów korporacyjnych?
+    - A) Bootstrap
+    - B) Tailwind CSS
+    - C) Oba
+    - D) Żaden
+    Odpowiedź: A) Bootstrap
+
+15. Który framework jest lepszy do tworzenia niestandardowych animacji?
+    - A) Bootstrap
+    - B) Tailwind CSS
+    - C) Oba
+    - D) Żaden
+    Odpowiedź: B) Tailwind CSS
