@@ -1,5 +1,2 @@
-link do nagrania : 
-https://vistulaedu-my.sharepoint.com/:v:/g/personal/sprawuc1_stu_vistula_edu_pl/EYiiorUBea9JhilCGvxKePABe7To7TVGeT_66BmSXm1qkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tkViAF
-
-link do strony: 
-https://pawelcwikilewiczuczelnia.github.io/multimedialne-strona/
+[link do nagrania](https://vistulaedu-my.sharepoint.com/:v:/g/personal/sprawuc1_stu_vistula_edu_pl/EYiiorUBea9JhilCGvxKePABe7To7TVGeT_66BmSXm1qkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tkViAF) 
+[link do strony](https://pawelcwikilewiczuczelnia.github.io/multimedialne-strona/)
