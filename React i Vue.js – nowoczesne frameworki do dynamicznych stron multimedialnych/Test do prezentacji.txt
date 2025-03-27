@@ -1,0 +1,99 @@
+1. Kto stworzył React?
+a) Google
+✅ b) Facebook (Meta)
+c) Evan You
+
+2. Do czego służy React?
+a) Do backendu aplikacji
+✅ b) Do tworzenia interfejsów użytkownika
+c) Do zarządzania bazami danych
+
+3. Co to jest JSX?
+a) Język szablonów CSS
+✅ b) Rozszerzenie składni JavaScript do pisania HTML w JS
+c) Framework serwerowy
+
+4. Czym jest Virtual DOM?
+✅ a) Wirtualna kopia DOM służąca do optymalizacji zmian
+b) Element API do lokalnego przechowywania danych
+c) Mechanizm do zarządzania routingiem
+
+5. Jakie biblioteki pomagają w zarządzaniu stanem w React?
+a) Vuex, Pinia
+✅ b) Redux, Zustand, Recoil
+c) Django, Flask
+
+6. Co wyróżnia komponentową architekturę Reacta?
+a) Kod pisany tylko w HTML
+✅ b) Aplikacja zbudowana z wielokrotnego użytku komponentów
+c) Brak podziału kodu
+
+7. Które z poniższych NIE jest zaletą Reacta?
+a) Wydajność
+✅ b) Wbudowany routing
+c) Ponowne użycie kodu
+
+8. Jaki framework służy do renderowania React po stronie serwera?
+✅ a) Next.js
+b) Vue CLI
+c) Angular
+
+9. Co to jest React Native?
+a) Wersja Reacta dla przeglądarek Safari
+✅ b) Framework do tworzenia aplikacji mobilnych
+c) Kompilator do TypeScriptu
+
+10. Kto stworzył Vue.js?
+a) Mark Zuckerberg
+b) Tim Berners-Lee
+✅ c) Evan You
+
+11. Kiedy wydano Vue.js?
+a) 2013
+✅ b) 2014
+c) 2017
+
+12. Co oznacza, że Vue jest „progresywnym” frameworkiem?
+a) Jest rozwijany tylko w USA
+✅ b) Można go stopniowo wdrażać do projektu
+c) Wymaga backendu PHP
+
+13. Jakie narzędzie służy do debugowania aplikacji Vue?
+a) Jest
+✅ b) Vue DevTools
+c) Cypress
+
+14. Jakie narzędzie w Vue 3 zastąpiło Vuex?
+a) Redux
+✅ b) Pinia
+c) Zustand
+
+15. Jakie podejście dominuje w Vue przy pisaniu komponentów?
+a) JSX
+✅ b) Klasyczny podział na HTML, CSS, JS
+c) Tylko TypeScript
+
+16. Co łączy React i Vue?
+a) Tylko Vue obsługuje SPA
+✅ b) Oba korzystają z komponentów i Virtual DOM
+c) Oba zostały stworzone przez Google
+
+17. Kiedy lepiej wybrać Vue?
+✅ a) Gdy chcemy szybki start lub prototyp
+b) Do aplikacji mobilnych
+c) Do systemów bankowych
+
+18. Gdzie częściej spotkamy Reacta?
+✅ a) W dużych firmach i korporacjach
+b) W systemach Linux
+c) W backendach PHP
+
+19. Które narzędzie nie jest częścią ekosystemu Reacta?
+a) React Router
+✅ b) Vue Router
+c) Redux
+
+20. Jaki typ aplikacji często tworzy się za pomocą React lub Vue?
+✅ a) SPA – Single Page Applications
+b) Systemy BIOS
+c) Aplikacje tylko offline
