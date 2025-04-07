@@ -1,0 +1,43 @@
+<canvas id="waveCanvas"></canvas>
+<button id="increaseButton" style="position: fixed; top: 50%; left: 20px; padding: 10px; font-size: 16px;">Powiększenie fali</button>
+<button id="decreaseButton" style="position: fixed; top: 50%; right: 20px; padding: 10px; font-size: 16px;">Zmniejsz falę</button>
+<script>
+  let canvas = document.getElementById("waveCanvas");
+  let ctx = canvas.getContext("2d");
+  let t = 0;
+  let waveOffset = canvas.height / 2 + 200;  // Теперь волна будет расположена ещё ниже
+  let waveAmplitude = 20;  // начальная амплитуда волны
+
+  // Устанавливаем размер канваса на весь экран
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  // Функция для рисования волны
+  function drawWave() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.beginPath();
+    for (let x = 0; x < canvas.width; x++) {
+      // Волна будет располагаться ещё ниже на экране
+      let y = waveOffset + waveAmplitude * Math.sin((x + t) * 0.05);
+      ctx.lineTo(x, y);
+    }
+    ctx.strokeStyle = "blue";
+    ctx.lineWidth = 2;
+    ctx.stroke();
+    t += 2;
+    requestAnimationFrame(drawWave);
+  }
+
+  // Обработчик для кнопки увеличения волны
+  document.getElementById("increaseButton").addEventListener("click", function() {
+    waveAmplitude += 10;  // Увеличиваем амплитуду волны
+  });
+
+  // Обработчик для кнопки уменьшения волны
+  document.getElementById("decreaseButton").addEventListener("click", function() {
+    waveAmplitude = Math.max(10, waveAmplitude - 10);  // Уменьшаем амплитуду волны, но не даём ей стать слишком маленькой
+  });
+
+  // Инициализация рисования
+  drawWave();
+</script>
