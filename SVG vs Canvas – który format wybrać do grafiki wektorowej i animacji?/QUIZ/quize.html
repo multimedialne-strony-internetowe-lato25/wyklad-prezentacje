@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: SVG vs Canvas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .question {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+        }
+        .question h3 {
+            margin: 0 0 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Quiz: SVG vs Canvas</h1>
+<a href="info.html" class="submit-btn">Przejdź do informacje</a>
+
+<form id="quizForm">
+
+<div class="question">
+    <h3>1. Co oznacza skrót SVG?</h3>
+    <label><input type="radio" name="q0"> Scalable Visual Graphics</label>
+    <label><input type="radio" name="q0" data-correct> Scalable Vector Graphics</label>
+    <label><input type="radio" name="q0"> Simple Vector Graphics</label>
+</div>
+
+<div class="question">
+    <h3>2. Jaka technologia przechowuje grafikę jako wektory?</h3>
+    <label><input type="radio" name="q1"> Canvas</label>
+    <label><input type="radio" name="q1" data-correct> SVG</label>
+    <label><input type="radio" name="q1"> PNG</label>
+</div>
+
+<div class="question">
+    <h3>3. Który format nadaje się najlepiej do tworzenia interaktywnych map internetowych?</h3>
+    <label><input type="radio" name="q2"> Canvas</label>
+    <label><input type="radio" name="q2" data-correct> SVG</label>
+    <label><input type="radio" name="q2"> JPEG</label>
+</div>
+
+<div class="question">
+    <h3>4. Który format graficzny lepiej radzi sobie z dużą ilością dynamicznych animacji (np. gry)?</h3>
+    <label><input type="radio" name="q3"> SVG</label>
+    <label><input type="radio" name="q3" data-correct> Canvas</label>
+    <label><input type="radio" name="q3"> GIF</label>
+</div>
+
+<div class="question">
+    <h3>5. Co jest główną zaletą grafiki SVG?</h3>
+    <label><input type="radio" name="q4" data-correct> Skalowalność bez utraty jakości</label>
+    <label><input type="radio" name="q4"> Renderowanie bitmapowe</label>
+    <label><input type="radio" name="q4"> Bardzo wysoka wydajność przy tysiącach obiektów</label>
+</div>
+
+<div class="question">
+    <h3>6. Jaki język programowania najczęściej stosuje się do obsługi Canvas?</h3>
+    <label><input type="radio" name="q5"> PHP</label>
+    <label><input type="radio" name="q5" data-correct> JavaScript</label>
+    <label><input type="radio" name="q5"> HTML</label>
+</div>
+
+<div class="question">
+    <h3>7. Która technologia używa DOM do zarządzania elementami?</h3>
+    <label><input type="radio" name="q6"> Canvas</label>
+    <label><input type="radio" name="q6" data-correct> SVG</label>
+    <label><input type="radio" name="q6"> JPEG</label>
+</div>
+
+<div class="question">
+    <h3>8. Jaką główną wadę ma grafika Canvas?</h3>
+    <label><input type="radio" name="q7"> Trudność z dynamicznym generowaniem obrazu</label>
+    <label><input type="radio" name="q7"> Problemy z wydajnością przy dużej liczbie obiektów</label>
+    <label><input type="radio" name="q7" data-correct> Spadek jakości przy skalowaniu</label>
+</div>
+
+<div class="question">
+    <h3>9. Jaka technologia jest bardziej przyjazna dla SEO?</h3>
+    <label><input type="radio" name="q8"> Canvas</label>
+    <label><input type="radio" name="q8" data-correct> SVG</label>
+    <label><input type="radio" name="q8"> Oba formaty są równie przyjazne</label>
+</div>
+
+<div class="question">
+    <h3>10. Który format lepiej sprawdza się w zaawansowanych grach przeglądarkowych?</h3>
+    <label><input type="radio" name="q9"> SVG</label>
+    <label><input type="radio" name="q9" data-correct> Canvas</label>
+    <label><input type="radio" name="q9"> JPG</label>
+</div>
+
+<div class="question">
+    <h3>11. Jakie biblioteki często wykorzystuje się do animacji SVG?</h3>
+    <label><input type="radio" name="q10" data-correct> GSAP, Snap.svg, Anime.js</label>
+    <label><input type="radio" name="q10"> React Native, Flutter</label>
+    <label><input type="radio" name="q10"> Django, Laravel</label>
+</div>
+
+<div class="question">
+    <h3>12. Co oznacza skrót DOM w kontekście SVG?</h3>
+    <label><input type="radio" name="q11" data-correct> Document Object Model</label>
+    <label><input type="radio" name="q11"> Data Object Management</label>
+    <label><input type="radio" name="q11"> Dynamic Object Manipulation</label>
+</div>
+
+<div class="question">
+    <h3>13. Canvas najlepiej sprawdzi się w projektach takich jak:</h3>
+    <label><input type="radio" name="q12"> Animowane logo firmy</label>
+    <label><input type="radio" name="q12" data-correct> Gry przeglądarkowe 2D/3D</label>
+    <label><input type="radio" name="q12"> Skalowalne infografiki na stronę WWW</label>
+</div>
+
+<div class="question">
+    <h3>14. Jakiego elementu HTML używa się do tworzenia grafiki Canvas?</h3>
+    <label><input type="radio" name="q13" data-correct> &lt;canvas&gt;</label>
+    <label><input type="radio" name="q13"> &lt;svg&gt;</label>
+    <label><input type="radio" name="q13"> &lt;graphic&gt;</label>
+</div>
+
+
+<div class="question">
+    <h3>15. Który format pozwala na łatwiejszą manipulację pojedynczymi elementami za pomocą CSS?</h3>
+    <label><input type="radio" name="q14"> Canvas</label>
+    <label><input type="radio" name="q14" data-correct> SVG</label>
+    <label><input type="radio" name="q14"> Żaden z nich nie pozwala na edycję elementów za pomocą CSS</label>
+</div>
+
+<button type="button" class="submit-btn" onclick="checkAnswers()">Sprawdź odpowiedzi</button>
+
+</form>
+
+<script>
+function checkAnswers() {
+    let questions = document.querySelectorAll('.question');
+    let score = 0;
+
+    questions.forEach((question) => {
+        let selected = question.querySelector('input[type=radio]:checked');
+        if(selected && selected.hasAttribute('data-correct')) {
+            score++;
+            question.style.backgroundColor = '#d4edda';
+        } else {
+            question.style.backgroundColor = '#f8d7da';
+        }
+    });
+
+    alert('Twój wynik: ' + score + ' na ' + questions.length);
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+1. Co oznacza skrót HTML?
+
+a) HomeText Markup Language
+b) HighText Machine Language
+c) HyperTool Markup Language
+d) HyperText Markup Language
+
+2. Który znacznik tworzy nagłówek?
+
+a) <h1> (Правильный ответ)
+b) <div>
+c) <span>
+d) <p>
+
+3. Jak podłączyć zewnętrzny plik CSS?
+
+a) <css href="styles.css">
+b) <link rel="stylesheet" href="styles.css">
+c) <style src="styles.css">
+d) <script src="styles.css">
+
+4. Co robi funkcja alert() w JavaScript?
+
+a) Zmienia kolor tekstu
+b) Dodaje nowy element HTML
+c) Wyświetla okno z komunikatem
+d) Usuwa element ze strony
+
+5. Który selektor stylizuje element z klasą "intro"?
+
+a) #intro
+b) <intro>
+c) intro
+d) .intro
+
+6. Co robi właściwość margin w CSS?
+
+a) Zmienia kolor tekstu
+b) Ustawia zewnętrzne odstępy
+c) Zmienia czcionkę
+d) Dodaje wewnętrzne odstępy
+
+7. Jak zadeklarować zmienną w JavaScript?
+
+a) let x = 10
+b) x = 10
+c) const x = 10
+d) variable x = 10
+
+8. Co robi document.getElementById()?
+
+a) Zmienia styl
+b) Tworzy nowy element
+c) Usuwa element
+d) Znajduje element po ID
+
+9. Który znacznik służy do listy nieuporządkowanej?
+
+a) <dl>
+b) <li>
+c) <ul>
+d) <ol>
+
+10. Co się stanie przy użyciu :hover w CSS?
+
+a) Styl zmieni się po najechaniu myszą
+b) Styl zmieni się po załadowaniu
+c) Styl się nie zmieni
+d) Styl zmieni się po kliknięciu
+
+11. Jaki jest główny cel stosowania znaczników semantycznych w HTML5?
+
+a) Zwiększenie atrakcyjności wizualnej strony
+b) Poprawa struktury i dostępności strony dla wyszukiwarek i czytników ekranowych
+c) Przyspieszenie działania JavaScript na stronie
+d) Optymalizacja obrazów na stronie
+
+12. Jakie nowe API zostały wprowadzone w HTML5?
+
+a) Geolokalizacja, Web Storage, WebSockets
+b) Bootstrap, jQuery, AJAX
+c) PHP, SQL, XML
+d) GraphQL, React, Redux
+
+13. Które zdanie najlepiej opisuje różnicę między let i const w JavaScript?
+
+a) let tworzy zmienne globalne, a const lokalne
+b) let pozwala na zmianę wartości zmiennej, a const blokuje jej modyfikację
+c) let służy do deklaracji funkcji, a const do deklaracji obiektów
+d) const jest szybsze niż let w wykonywaniu kodu
+
+14. Jakie są zalety stosowania zewnętrznego arkusza stylów CSS według prezentacji?
+
+a) Spójność wizualna na całej stronie
+b) Szybsze ładowanie strony dzięki buforowaniu
+c) Łatwiejsza modyfikacja wyglądu całej witryny
+d) Wszystkie powyższe
+
+15. Jakie są główne różnice między CSS Grid a Flexboxem według prezentacji?
+
+a) CSS Grid umożliwia tworzenie układów jednowymiarowych, a Flexbox – dwuwymiarowych
+b) CSS Grid służy do układów dwuwymiarowych, a Flexbox do jednowymiarowych
+c) Oba rozwiązania działają identycznie
+d) Flexbox jest używany tylko do responsywnych projektów

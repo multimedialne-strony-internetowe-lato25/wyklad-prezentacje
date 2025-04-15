@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gravity Simulation</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+      flex-direction: column;
+    }
+
+    canvas {
+      border: 2px solid black;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gravityCanvas" width="400" height="300"></canvas>
+  <button id="restartButton">Restart</button>
+
+  <script>
+    let canvas2 = document.getElementById("gravityCanvas");
+    let ctx2 = canvas2.getContext("2d");
+
+    let balls = [];
+    let gravity = 0.5;
+    let airResistance = 0.99;
+    let friction = 0.95;
+    let threshold = 0.05; // Порог для перезапуска
+    let animationFrameId; // Для хранения ID текущего анимационного кадра
+
+    function createBalls() {
+      balls = [
+        { x: 50, y: 50, vy: 0, radius: 10, color: "red", friction },
+        { x: 150, y: 30, vy: 0, radius: 15, color: "blue", friction },
+        { x: 250, y: 20, vy: 0, radius: 20, color: "green", friction }
+      ];
+    }
+
+    function update() {
+      ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+      let allBallsStopped = true;
+
+      balls.forEach((ball, index) => {
+        // Применение гравитации и сопротивления воздуха
+        ball.vy += gravity;
+        ball.vy *= airResistance;
+        ball.y += ball.vy;
+
+        // Коллизии с нижней частью канваса
+        if (ball.y + ball.radius > canvas2.height) {
+          ball.y = canvas2.height - ball.radius;
+          ball.vy *= -ball.friction;  // Уменьшаем скорость отскока
+        }
+
+        // Проверяем, остановился ли шар (если его скорость очень мала)
+        if (Math.abs(ball.vy) > threshold) {
+          allBallsStopped = false;
+        }
+
+        // Рисуем каждый шар
+        ctx2.beginPath();
+        ctx2.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
+        ctx2.fillStyle = ball.color;
+        ctx2.fill();
+
+        // Проверка на столкновения между шарами
+        for (let i = index + 1; i < balls.length; i++) {
+          let ball2 = balls[i];
+          let dx = ball.x - ball2.x;
+          let dy = ball.y - ball2.y;
+          let distance = Math.sqrt(dx * dx + dy * dy);
+          let minDistance = ball.radius + ball2.radius;
+
+          if (distance < minDistance) {
+            // Простейшее столкновение (восстановление скорости после столкновения)
+            let angle = Math.atan2(dy, dx);
+            let targetX = ball.x + Math.cos(angle) * minDistance;
+            let targetY = ball.y + Math.sin(angle) * minDistance;
+
+            let ax = (targetX - ball2.x) * 0.1;
+            let ay = (targetY - ball2.y) * 0.1;
+
+            ball.vx -= ax;
+            ball.vy -= ay;
+            ball2.vx += ax;
+            ball2.vy += ay;
+          }
+        }
+      });
+
+      // Если все шары остановились, перезапускаем
+      if (allBallsStopped) {
+        createBalls();
+      } else {
+        // Обновляем кадр анимации
+        animationFrameId = requestAnimationFrame(update);
+      }
+    }
+
+    // Инициализация и запуск симуляции
+    createBalls();
+    update();
+
+    // Обработчик для кнопки перезапуска
+    document.getElementById("restartButton").addEventListener("click", function() {
+      // Останавливаем текущую анимацию, если она существует
+      cancelAnimationFrame(animationFrameId);
+
+      // Сброс состояния шаров
+      createBalls();
+
+      // Перезапуск анимации
+      update();
+    });
+  </script>
+</body>
+</html>

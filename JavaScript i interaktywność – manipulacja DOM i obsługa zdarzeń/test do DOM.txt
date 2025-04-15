@@ -1,0 +1,119 @@
+1. Czym jest DOM?
+A) Jest to baza danych używana do przechowywania dokumentów HTML.
+B) Jest to sposób na stylizowanie elementów HTML za pomocą JavaScript.
+C) Jest to obiektowy model dokumentu, który reprezentuje strukturę strony w przeglądarce. 
+D) Jest to narzędzie do debugowania kodu JavaScript w przeglądarce.
+
+2. Jaki jest główny element w drzewie DOM?
+A) <head>
+B) <body>
+C) document 
+D) <html>
+
+3. Która metoda pozwala pobrać element po jego identyfikatorze (ID)?
+A) document.querySelectorAll()
+B) document.getElementsByClassName()
+C) document.getElementById() 
+D) document.getElementsByTagName()
+
+4. Która metoda zwraca statyczny zbiór elementów pasujących do selektora CSS?
+A) document.querySelector()
+B) document.querySelectorAll() 
+C) document.getElementsByClassName()
+D) document.getElementsByTagName()
+
+5. Jaką metodą można usunąć element z DOM w nowoczesny sposób?
+A) element.remove() 
+B) document.removeElement()
+C) document.deleteNode()
+D) parentNode.eraseChild()
+
+6. Jak można dynamicznie dodać klasę CSS do elementu w JavaScript?
+A) element.style.addClass("nowa-klasa")
+B) element.classList.add("nowa-klasa") 
+C) element.className = "nowa-klasa"
+D) element.setClass("nowa-klasa")
+
+7. Czym różni się textContent od innerHTML?
+A) textContent pozwala na dodawanie HTML, a innerHTML nie.
+B) innerHTML pozwala na dodawanie HTML, a textContent dodaje tylko tekst. 
+C) Obie metody działają tak samo.
+D) innerHTML jest bezpieczniejszy od textContent.
+
+8. Jaką metodą można dodać nowy element do DOM?
+A) createElement() 
+B) appendNewElement()
+C) insertHTML()
+D) addElement()
+
+9. Które zdarzenie rejestruje wciśnięcie klawisza na klawiaturze?
+A) keypress
+B) keydown 
+C) keyup
+D) keyevent
+
+10. Która metoda służy do obsługi zdarzeń w nowoczesny sposób?
+A) element.onClick = function() {...}
+B) element.addEventListener("click", function() {...}) 
+C) element.handleClick(function() {...})
+D) element.triggerClick(function() {...})
+
+11. Co oznacza propagacja zdarzeń w DOM?
+A) Jest to sposób, w jaki zdarzenie przemieszcza się w drzewie DOM. 
+B) Jest to mechanizm do zatrzymywania zdarzeń.
+C) Oznacza usuwanie zdarzeń po ich wykonaniu.
+D) Oznacza nadpisywanie zdarzeń.
+
+12. Jak można zatrzymać propagację zdarzenia?
+A) event.stopPropagation() 
+B) event.stopBubble()
+C) event.preventDefault()
+D) event.removePropagation()
+
+13. Co robi event.preventDefault()?
+A) Zatrzymuje propagację zdarzenia.
+B) Blokuje domyślne działanie elementu (np. zapobiega przeładowaniu strony po kliknięciu linku). 
+C) Usuwa nasłuchiwacz zdarzenia.
+D) Zatrzymuje skrypt JavaScript.
+
+14. Która metoda pozwala na dynamiczne dodanie elementu do DOM?
+A) element.appendChild(newElement) 
+B) element.insertElement(newElement)
+C) element.addToDOM(newElement)
+D) element.setChild(newElement)
+
+15. Która metoda zwróci aktywny (aktualnie zaznaczony) element na stronie?
+A) document.currentElement
+B) document.activeElement 
+C) document.focusElement
+D) document.selectedElement
+
+16. Jakie zdarzenie uruchamia się po załadowaniu całej strony (łącznie z obrazami)?
+A) DOMContentLoaded
+B) load 
+C) ready
+D) pageLoaded
+
+17. Jak można sprawdzić, czy dany element posiada określoną klasę CSS?
+A) element.hasClass("nazwa-klasy")
+B) element.classList.contains("nazwa-klasy") 
+C) element.className.includes("nazwa-klasy")
+D) element.checkClass("nazwa-klasy")
+
+18. Co się stanie, jeśli użyjemy document.write() po całkowitym załadowaniu strony?
+A) Nic, metoda nie działa po załadowaniu strony.
+B) Nadpisze całą zawartość dokumentu. 
+C) Doda nowy element do DOM.
+D) Wywoła błąd w konsoli.
+
+19. Jak usunąć element z DOM w starszych wersjach przeglądarek (bez remove())
+A) element.parentNode.removeChild(element) 
+B) document.removeElement(element)
+C) element.delete()
+D) element.removeFromDOM()
+
+20. Jak sprawić, aby przycisk wywoływał funkcję po każdym kliknięciu?
+A) button.onclick = myFunction;
+B) button.addEventListener("click", myFunction); 
+C) button.callEvent("click", myFunction);
+D) button.on("click", myFunction);

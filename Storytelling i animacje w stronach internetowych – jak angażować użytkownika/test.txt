@@ -1,0 +1,210 @@
+Czym jest storytelling?
+a) Sztuką projektowania graficznego
+b) Sztuką opowiadania historii, które wzbudzają emocje i budują relacje
+c) Techniką programowania animacji
+d) Metodą analizy danych użytkowników
+Prawidłowa odpowiedź: b
+
+Jaką rolę odgrywa storytelling w marketingu?
+a) Ułatwia zarządzanie danymi finansowymi
+b) Komunikuje unikalną tożsamość marki i buduje lojalność klientów
+c) Służy wyłącznie do dekoracji strony
+d) Zwiększa prędkość ładowania witryny
+Prawidłowa odpowiedź: b
+
+Co jest głównym celem stosowania animacji na stronach internetowych?
+a) Zwiększenie liczby stron w witrynie
+b) Zwiększenie atrakcyjności wizualnej oraz angażowanie użytkownika
+c) Zmniejszenie kosztów utrzymania strony
+d) Zastąpienie tradycyjnych zdjęć
+Prawidłowa odpowiedź: b
+
+Czym są mikrointerakcje?
+a) Małymi animacjami informującymi o interakcji użytkownika z elementami interfejsu
+b) Rozbudowanymi animacjami w tle strony
+c) Statycznymi ikonami nawigacyjnymi
+d) Funkcjami zarządzania bazą danych
+Prawidłowa odpowiedź: a
+
+Która z poniższych technologii NIE została wymieniona jako narzędzie do tworzenia animacji?
+a) CSS (reguły @keyframes, transition)
+b) JavaScript (API requestAnimationFrame)
+c) SVG (Scalable Vector Graphics)
+d) PHP
+Prawidłowa odpowiedź: d
+
+Która biblioteka służy do tworzenia zaawansowanych animacji JavaScript?
+a) Animate.css
+b) GSAP (Greensock Animation Platform)
+c) Bootstrap
+d) React
+Prawidłowa odpowiedź: b
+
+W jaki sposób storytelling wpływa na lojalność klientów?
+a) Przez tworzenie niezapomnianych historii, które budują emocjonalne więzi z marką
+b) Poprzez redukcję kosztów reklamowych
+c) Dzięki zwiększeniu szybkości ładowania strony
+d) Poprzez zmniejszenie ilości treści na stronie
+Prawidłowa odpowiedź: a
+
+Który z poniższych elementów NIE należy do kluczowych składników storytellingu?
+a) Postaci
+b) Fabuła
+c) Emocje
+d) Optymalizacja SEO
+Prawidłowa odpowiedź: d
+
+Jakie korzyści przynoszą animacje w interfejsie użytkownika (UI)?
+a) Poprawiają estetykę strony, komunikację informacji i interakcję użytkownika
+b) Zwiększają ilość reklam
+c) Redukują interakcje użytkowników
+d) Zastępują funkcjonalność strony
+Prawidłowa odpowiedź: a
+
+Dlaczego personalizacja doświadczenia użytkownika jest istotna?
+a) Umożliwia prezentację treści dostosowanej do indywidualnych preferencji odbiorców
+b) Zwiększa koszty utrzymania strony
+c) Ułatwia automatyczne generowanie treści niezwiązanych z użytkownikiem
+d) Zapewnia jednolity wygląd strony dla wszystkich
+Prawidłowa odpowiedź: a
+
+Która zasada jest kluczowa przy projektowaniu animacji na stronach internetowych?
+a) Maksymalizacja liczby efektów wizualnych niezależnie od wydajności
+b) Zachowanie równowagi między atrakcyjnym wyglądem a wydajnością i czytelnością przekazu
+c) Ignorowanie responsywności na różnych urządzeniach
+d) Używanie wyłącznie statycznych obrazów
+Prawidłowa odpowiedź: b
+
+Jakie wyzwania mogą pojawić się przy integracji storytellingu i animacji?
+a) Zwiększenie prędkości ładowania strony
+b) Utrzymanie spójności komunikacji i równowagi między estetyką a funkcjonalnością
+c) Zmniejszenie liczby interakcji użytkowników
+d) Automatyczne generowanie treści marketingowych
+Prawidłowa odpowiedź: b
+
+W jaki sposób animacje i storytelling mogą wpłynąć na SEO?
+a) Poprzez skracanie czasu spędzanego na stronie
+b) Poprzez zwiększenie zaangażowania użytkowników i wydłużenie czasu przebywania na stronie
+c) Poprzez obniżenie jakości treści
+d) Poprzez zwiększenie liczby reklam
+Prawidłowa odpowiedź: b
+
+Który z poniższych przykładów kampanii storytellingowych został wymieniony w prezentacji?
+a) Pepsi "Live for Now"
+b) Coca-Cola "Shake a Coke"
+c) Samsung "Do What You Can't"
+d) McDonald’s "I’m lovin’ it"
+Prawidłowa odpowiedź: b
+
+Jakie emocje może wywołać dobrze opowiedziana historia?
+a) Jedynie radość
+b) Różnorodne emocje – od śmiechu, przez wzruszenie, po ekscytację
+c) Tylko smutek
+d) Żadnych, opowieść ma charakter czysto informacyjny
+Prawidłowa odpowiedź: b
+
+Która technologia pozwala na tworzenie grafiki, która zachowuje ostrość przy dowolnym powiększeniu?
+a) Raster
+b) SVG (Scalable Vector Graphics)
+c) Bitmapa
+d) Flash
+Prawidłowa odpowiedź: b
+
+Dlaczego autentyczność narracji jest ważna?
+a) Ponieważ wpływa na wiarygodność i budowanie zaufania do marki
+b) Ponieważ zmniejsza koszty produkcji
+c) Ponieważ przyspiesza ładowanie strony
+d) Ponieważ automatyzuje generowanie treści
+Prawidłowa odpowiedź: a
+
+W jaki sposób dynamiczne animacje wpływają na UX (User Experience)?
+a) Utrudniają nawigację
+b) Ułatwiają orientację, poprawiają wizualny odbiór i zwiększają zaangażowanie
+c) Zwiększają liczbę błędów w kodzie
+d) Zmniejszają interakcję użytkowników
+Prawidłowa odpowiedź: b
+
+Co oznacza responsywność animacji?
+a) Animacje dostosowują się automatycznie do rozmiaru ekranu i specyfiki urządzenia użytkownika
+b) Animacje działają tylko na komputerach stacjonarnych
+c) Animacje nie zmieniają się niezależnie od urządzenia
+d) Animacje zwiększają rozmiar strony
+Prawidłowa odpowiedź: a
+
+Jaka jest rola dźwięku i muzyki w animacjach?
+a) Służą wyłącznie jako tło dla stron internetowych
+b) Wzmacniają przekaz emocjonalny i tworzą atmosferę wspierającą storytelling
+c) Zwiększają rozmiar plików bez wpływu na odbiór treści
+d) Są zbędne w dobrze zaprojektowanym interfejsie
+Prawidłowa odpowiedź: b
+
+Dlaczego regularne testowanie i iteracja animacji są ważne?
+a) Pozwalają na zmniejszenie liczby użytkowników
+b) Umożliwiają optymalizację efektów wizualnych i dostosowanie ich do potrzeb użytkowników
+c) Powodują zwiększenie czasu ładowania strony
+d) Utrudniają proces projektowania
+Prawidłowa odpowiedź: b
+
+Która z poniższych technik nie jest wykorzystywana do tworzenia animacji?
+a) Użycie reguł @keyframes i właściwości transition w CSS
+b) Wykorzystanie API requestAnimationFrame w JavaScript
+c) Korzystanie z bibliotek do manipulacji SVG
+d) Wykorzystanie statycznych obrazów bez efektów ruchu
+Prawidłowa odpowiedź: d
+
+W jaki sposób storytelling może wpłynąć na konwersje na stronie?
+a) Przez budowanie emocjonalnych więzi, co zachęca użytkowników do podejmowania działań (np. zakupu)
+b) Przez zwiększenie liczby nieczytelnych treści
+c) Poprzez zmniejszenie czasu interakcji
+d) Przez automatyzację reklam bez uwzględnienia emocji
+Prawidłowa odpowiedź: a
+
+Jakie korzyści daje stosowanie minimalizmu w projektowaniu animacji?
+a) Umożliwia skupienie uwagi na najważniejszych elementach i zapobiega przesytowi informacji
+b) Powoduje, że strona staje się mniej atrakcyjna
+c) Zwiększa liczbę animowanych elementów niezależnie od kontekstu
+d) Utrudnia nawigację po stronie
+Prawidłowa odpowiedź: a
+
+Jaki jest główny cel stosowania interaktywnych elementów storytellingu, takich jak quizy czy grywalizacja?
+a) Zwiększenie liczby statycznych treści
+b) Aktywne angażowanie użytkowników i dostosowanie treści do ich potrzeb
+c) Utrudnienie nawigacji po stronie
+d) Zastąpienie tradycyjnego contentu tekstowego
+Prawidłowa odpowiedź: b
+
+W jaki sposób animacje mogą wspierać nawigację na stronie internetowej?
+a) Poprzez ukrywanie ważnych elementów interfejsu
+b) Ułatwiając orientację i wyraźne wskazanie interaktywnych elementów
+c) Przez zwiększenie liczby kliknięć bez wskazania celu
+d) Utrudniając znalezienie istotnych informacji
+Prawidłowa odpowiedź: b
+
+Jaki jest główny ryzyko nadmiernego stosowania efektów wizualnych?
+a) Poprawa szybkości działania strony
+b) Rozproszenie uwagi użytkowników i obniżenie czytelności przekazu
+c) Zwiększenie zaangażowania użytkowników
+d) Ułatwienie budowania relacji z marką
+Prawidłowa odpowiedź: b
+
+Który element pozwala na dostosowanie treści do indywidualnych potrzeb odbiorców?
+a) Standardowy, jednolity interfejs
+b) Personalizacja doświadczenia użytkownika na podstawie analiz zachowań
+c) Automatyczne powielanie treści
+d) Brak analityki użytkowników
+Prawidłowa odpowiedź: b
+
+Jaki wpływ ma integracja multimediów (np. dźwięku i muzyki) na storytelling?
+a) Zwiększa jedynie rozmiar plików
+b) Wzmacnia przekaz emocjonalny i tworzy spójną atmosferę przekazu
+c) Powoduje rozproszenie uwagi odbiorców
+d) Nie ma znaczenia przy dobrze zaprojektowanej grafice
+Prawidłowa odpowiedź: b
+
+Jakie są końcowe wnioski prezentacji dotyczącej storytellingu i animacji w stronach internetowych?
+a) Że są one zbędnymi ozdobnikami w projektowaniu stron
+b) Że efektywny storytelling i animacje to kluczowe narzędzia budujące emocjonalne relacje z użytkownikami oraz wpływające na sukces biznesowy
+c) Że należy unikać interakcji użytkowników, aby strona była bardziej statyczna
+d) Że optymalizacja strony powinna skupiać się wyłącznie na technicznych aspektach
+Prawidłowa odpowiedź: b
+
