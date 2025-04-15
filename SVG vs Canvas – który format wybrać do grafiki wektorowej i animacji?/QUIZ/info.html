@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG vs Canvas – który format wybrać?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #007bff;
+        }
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .btn-quiz {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-quiz:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>SVG vs Canvas – który format wybrać do grafiki wektorowej i animacji?</h1>
+
+<div class="section">
+    <h2>Czym jest SVG?</h2>
+    <p><strong>SVG (Scalable Vector Graphics)</strong> to format grafiki wektorowej oparty na XML. Pozwala na renderowanie obrazów, które zachowują idealną jakość podczas skalowania, zarówno na małych ekranach mobilnych, jak i na dużych ekranach komputerowych. SVG umożliwia łatwą manipulację elementami za pomocą CSS i JavaScript, co sprzyja tworzeniu interaktywnych animacji i infografik.</p>
+
+    <h3>Zalety SVG:</h3>
+    <ul>
+        <li>Bezstratna skalowalność obrazów.</li>
+        <li>Dobre wsparcie SEO dzięki czytelnemu kodowi XML.</li>
+        <li>Możliwość manipulowania poszczególnymi elementami za pomocą DOM.</li>
+        <li>Wsparcie animacji CSS oraz bibliotek JavaScript (GSAP, Snap.svg, Anime.js).</li>
+    </ul>
+
+    <h3>Wady SVG:</h3>
+    <ul>
+        <li>Mniejsza wydajność przy dużej liczbie elementów.</li>
+        <li>Nie nadaje się do intensywnych obliczeniowo animacji.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Czym jest Canvas?</h2>
+    <p><strong>Canvas</strong> jest elementem HTML5, który wykorzystuje JavaScript do rysowania grafiki bitmapowej w czasie rzeczywistym. Idealnie nadaje się do aplikacji wymagających dynamicznych i interaktywnych animacji, takich jak gry online, aplikacje do edycji zdjęć, czy skomplikowane symulacje wizualne.</p>
+
+    <h3>Zalety Canvas:</h3>
+    <ul>
+        <li>Wysoka wydajność przy dynamicznych i intensywnych animacjach.</li>
+        <li>Idealny do gier przeglądarkowych 2D i 3D.</li>
+        <li>Szybkie renderowanie dużej liczby obiektów.</li>
+        <li>Bezpośrednia kontrola nad pikselami na płótnie.</li>
+    </ul>
+
+    <h3>Wady Canvas:</h3>
+    <ul>
+        <li>Obrazy tracą jakość podczas skalowania.</li>
+        <li>Brak dostępu do pojedynczych elementów graficznych poprzez DOM.</li>
+        <li>Trudniejsze pozycjonowanie i stylowanie elementów w porównaniu z SVG.</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Kiedy wybrać SVG, a kiedy Canvas?</h2>
+    <p><strong>Wybierz SVG, gdy potrzebujesz:</strong></p>
+    <ul>
+        <li>Interaktywnych grafik, map i wykresów.</li>
+        <li>Grafik skalowalnych bez utraty jakości.</li>
+        <li>Dobrego wsparcia dla SEO i dostępności.</li>
+        <li>Prostszych animacji lub animacji bazujących na CSS.</li>
+    </ul>
+
+    <p><strong>Wybierz Canvas, gdy potrzebujesz:</strong></p>
+    <ul>
+        <li>Dynamicznych gier i aplikacji webowych z dużą liczbą animacji.</li>
+        <li>Zaawansowanej manipulacji obrazem na poziomie pikseli.</li>
+        <li>Wysokiej wydajności przy dużych obciążeniach.</li>
+    </ul>
+</div>
+
+<a href="quize.html" class="btn-quiz">Przejdź do quizu</a>
+
+</body>
+</html>

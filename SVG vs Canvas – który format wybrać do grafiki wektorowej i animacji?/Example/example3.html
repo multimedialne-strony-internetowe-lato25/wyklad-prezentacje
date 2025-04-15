@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Map with Tooltip</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <svg width="500" height="400">
+    <rect x="150" y="100" width="200" height="200" fill="lightblue" stroke="black" id="region1" />
+    <text x="170" y="170" font-size="13" fill="black" visibility="hidden" id="tooltip1">Ivan Shchetinin/Maksym Khoma</text>
+    <script>
+      document.getElementById("region1").addEventListener("mouseover", () => {
+        document.getElementById("tooltip1").setAttribute("visibility", "visible");
+      });
+      document.getElementById("region1").addEventListener("mouseout", () => {
+        document.getElementById("tooltip1").setAttribute("visibility", "hidden");
+      });
+    </script>
+  </svg>
+</body>
+</html>

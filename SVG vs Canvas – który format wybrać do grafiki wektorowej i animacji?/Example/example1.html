@@ -1,0 +1,26 @@
+<!-- 1. SVG: Interaktywny wykres kołowy z animacją -->
+<svg id="chart" width="300" height="300" viewBox="0 0 300 300">
+    <circle cx="150" cy="150" r="100" fill="none" stroke="red" stroke-width="20" />
+    <path class="arc" d="M150,50 A100,100 0 0,1 250,150" fill="none" stroke="blue" stroke-width="20" />
+    <path class="arc" d="M250,150 A100,100 0 0,1 150,250" fill="none" stroke="red" stroke-width="20" />
+    <path class="arc" d="M150,250 A100,100 0 0,1 50,150" fill="none" stroke="green" stroke-width="20" />
+    <path class="arc" d="M50,150 A100,100 0 0,1 150,50" fill="none" stroke="yellow" stroke-width="20" />
+  </svg>
+  <button onclick="toggleDirection()">Zmień kierunek</button>
+  <script>
+    let angle = 0;
+    let direction = 1;
+    function animate() {
+      angle += direction * 2;
+      document.querySelectorAll('.arc').forEach((path, i) => {
+        path.style.transform = `rotate(${angle + i * 90}deg)`;
+        path.style.transformOrigin = "150px 150px";
+      });
+      requestAnimationFrame(animate);
+    }
+    function toggleDirection() {
+      direction *= -1;
+    }
+    animate();
+  </script>
+  
