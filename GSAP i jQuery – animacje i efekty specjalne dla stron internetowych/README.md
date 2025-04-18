@@ -1,3 +1,3 @@
-Link do filmiku: https://vistulaedu-my.sharepoint.com/personal/jmlynar2_stu_vistula_edu_pl/_layouts/15/stream.aspx?id=%2Fpersonal%2Fjmlynar2_stu_vistula_edu_pl%2FDocuments%2FGSAP%20i%20jQuery%20–%20animacje%20i%20efekty%20specjalne%20dla%20stron%20internetowych%20-%20Jakub%20Młynarski%2063998%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eec3e7cc7-59d5-4dc5-9069-6cd168a48200&isDarkMode=true&mode=View
+Link do filmiku: https://vistulaedu-my.sharepoint.com/:v:/g/personal/jmlynar2_stu_vistula_edu_pl/ES0wv0EnxMZHg5HTQ2fZ6zoBtjPaPX9URuqbquMDGUydsA
 
-Link do testu: https://forms.office.com/e/gBLVLwjBiw
+Link do testu: https://forms.office.com/Pages/ResponsePage.aspx?id=_iql6Khu90eydXg_cIe1-tMhJvbnDxtHhKOBHtckjPdUMFYxN1pQMkYyVE5OWE5VSUlOUVkwNUg4Ti4u
