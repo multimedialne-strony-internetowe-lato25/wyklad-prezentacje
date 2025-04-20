@@ -102,3 +102,38 @@ a) CSS Grid umożliwia tworzenie układów jednowymiarowych, a Flexbox – dwuwy
 b) CSS Grid służy do układów dwuwymiarowych, a Flexbox do jednowymiarowych
 c) Oba rozwiązania działają identycznie
 d) Flexbox jest używany tylko do responsywnych projektów
+
+16. Który element HTML5 służy do definiowania niezależnej, samodzielnej treści, która może być ponownie użyta?
+
+a) <section>
+b) <article>
+c) <aside>
+d) <footer>
+
+17. Jaka metoda JavaScript pozwala na dynamiczną zmianę zawartości elementu HTML?
+
+a) document.createElement()
+b) element.innerHTML
+c) window.alert()
+d) document.querySelector()
+
+18. Jaką właściwość CSS stosuje się do tworzenia responsywnego projektowania, umożliwiając elementom zmianę rozmiaru w zależności od wielkości ekranu?
+
+a) width: fixed
+b) display: block
+c) viewport width i viewport height
+d) margin: auto
+
+19. Które z poniższych stwierdzeń najlepiej opisuje różnicę między document.getElementById() oraz document.querySelector() w JavaScript?
+
+a) getElementById() może wybierać wiele elementów, querySelector() tylko jeden
+b) getElementById() używa selektorów CSS, querySelector() nie
+c) querySelector() obsługuje dowolne selektory CSS, getElementById() tylko przez ID
+d) Obie metody są identyczne i różnią się tylko nazwą
+
+20. Jaką właściwość CSS stosuje się do zarządzania układem elementów w kontenerze Flexbox?
+
+a) grid-template-columns
+b) flex-direction
+c) float
+d) position
