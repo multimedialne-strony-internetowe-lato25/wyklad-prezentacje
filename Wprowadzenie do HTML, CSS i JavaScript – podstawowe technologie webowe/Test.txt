@@ -7,7 +7,7 @@ d) HyperText Markup Language
 
 2. Który znacznik tworzy nagłówek?
 
-a) <h1> (Правильный ответ)
+a) <h1>
 b) <div>
 c) <span>
 d) <p>
