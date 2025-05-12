@@ -1,0 +1,144 @@
+1. Co jest głównym celem szyfrowania treści multimedialnych?
+A) Poprawa jakości treści
+B) Ochrona przed nieautoryzowanym dostępem ✅
+C) Skrócenie czasu ładowania
+D) Usuwanie znaków wodnych
+
+2. Która metoda ochrony treści multimedialnych polega na dodawaniu znaków wodnych?
+A) DRM
+B) Szyfrowanie
+C) Watermarking ✅
+D) Uwierzytelnianie
+
+3. Co jest głównym zagrożeniem związanym z piractwem cyfrowym?
+A) Utrata prywatności
+B) Nieautoryzowane kopiowanie i rozpowszechnianie treści ✅
+C) Zmniejszona jakość plików
+D) Zwiększone opłaty licencyjne
+
+4. Które narzędzie pozwala właścicielom praw autorskich na kontrolę sposobu korzystania z ich treści?
+A) VPN
+B) DRM ✅
+C) Firewall
+D) CAPTCHA
+
+5. Jakie jest główne ryzyko związane z rozpowszechnianiem niebezpiecznych treści?
+A) Obniżenie jakości treści
+B) Wprowadzenie odbiorców w błąd
+C) Zainfekowanie urządzeń szkodliwym oprogramowaniem ✅
+D) Trudność w ich odtwarzaniu
+
+6. Która z poniższych technik pomaga w wykrywaniu nielegalnego udostępniania treści?
+A) Optymalizacja plików
+B) Monitoring i śledzenie ✅
+C) Kompresja danych
+D) Używanie tagów
+
+7. Który z poniższych przykładów jest formą cyberprzestępczości?
+A) Używanie silnych haseł
+B) Ataki hakerskie na konta użytkowników ✅
+C) Regularne aktualizowanie oprogramowania
+D) Publikowanie treści w niskiej rozdzielczości
+
+8. Co może pomóc w ograniczeniu dostępu do treści multimedialnych?
+A) Udostępnianie treści bez logowania
+B) Użycie systemów uwierzytelniania i autoryzacji ✅
+C) Przechowywanie plików w formacie JPG
+D) Korzystanie z publicznych serwerów
+
+9. Jakie zagrożenie może wynikać z naruszenia prywatności?
+A) Kradzież danych osobowych ✅
+B) Skrócenie czasu ładowania strony
+C) Poprawa jakości transmisji
+D) Zwiększenie liczby reklam
+
+10. Która z poniższych praktyk zwiększa bezpieczeństwo publikowanych treści?
+A) Publikowanie treści bez sprawdzania źródła
+B) Używanie bezpiecznych platform ✅
+C) Udostępnianie treści w niskiej jakości
+D) Pomijanie opisów i tagów
+
+11. Który z poniższych terminów odnosi się do fałszerstw i manipulacji treściami multimedialnymi?
+A) Watermarking
+B) Deepfake ✅
+C) Optymalizacja plików
+D) VPN
+
+12. Jakie formaty plików warto wybierać do publikacji w Internecie?
+A) Format niekompatybilny z większością urządzeń
+B) Format zapewniający najlepszą jakość i wydajność ✅
+C) Format o jak największym rozmiarze
+D) Format, który nie obsługuje metadanych
+
+
+1. Która technologia pozwala na odtwarzanie treści multimedialnych tylko przez autoryzowanych użytkowników?
+A) VPN
+B) HTTPS
+C) Digital Rights Management (DRM) ✅
+D) Kompresja ZIP
+
+2. Która metoda zostawia niewidoczne ślady identyfikujące właściciela treści?
+A) Szyfrowanie
+B) Znak wodny (watermarking) ✅
+C) Kompresja
+D) Licencjonowanie
+
+3. Jakie jest największe zagrożenie związane z technologią deepfake?
+A) Błędy kompresji danych
+B) Naruszenie praw autorskich
+C) Tworzenie fałszywych treści w celu oszukania ✅
+D) Ograniczenia dostępu
+
+4. Która z poniższych opcji najlepiej zapobiega nieautoryzowanemu udostępnianiu treści?
+A) Zmiana nazw plików
+B) Systemy kontroli dostępu ✅
+C) Używanie niskiej jakości obrazów
+D) Wyłączenie komentarzy
+
+5. Jakie jest główne ryzyko związane z treściami multimedialnymi zawierającymi złośliwe oprogramowanie?
+A) Pogorszenie jakości dźwięku
+B) Zainfekowanie urządzenia ✅
+C) Problemy z prawami autorskimi
+D) Długi czas ładowania
+
+6. Który z poniższych algorytmów szyfrowania jest najskuteczniejszy w ochronie treści multimedialnych?
+A) MD5
+B) AES ✅
+C) JPG
+D) ZIP
+
+7. Która z poniższych platform jest najbardziej ryzykowna pod względem bezpieczeństwa treści?
+A) Otwarte fora bez uwierzytelniania ✅
+B) Licencjonowane strony do udostępniania wideo
+C) Korporacyjne systemy zarządzania treścią
+D) Płatne platformy streamingowe
+
+8. Która dobra praktyka ułatwia wyszukiwanie treści multimedialnych w Internecie?
+A) Szyfrowanie treści
+B) Publikowanie w niskiej rozdzielczości
+C) Używanie opisowych tytułów i tagów ✅
+D) Dodawanie reklam
+
+9. Która z poniższych opcji NIE jest skuteczną metodą zapobiegania piractwu cyfrowemu?
+A) Używanie DRM
+B) Dodanie znaków wodnych
+C) Systemy uwierzytelniania
+D) Publiczne udostępnianie treści ✅
+
+10. Co pomaga w szybkim ładowaniu treści multimedialnych bez utraty jakości?
+A) Dodanie watermarka
+B) Korzystanie z VPN
+C) Optymalizacja i odpowiedni format plików ✅
+D) Instalacja blokady reklam
+
+11. Która z poniższych sytuacji stanowi naruszenie prywatności?
+A) Wyłączenie komentarzy
+B) Udostępnienie wizerunku bez zgody użytkownika ✅
+C) Publikowanie treści w niskiej rozdzielczości
+D) Korzystanie z szyfrowanych połączeń
+
+12. Dlaczego ważne jest sprawdzenie legalności treści przed publikacją?
+A) Aby zwiększyć ruch na stronie
+B) Aby uniknąć naruszenia praw autorskich ✅
+C) Aby zmniejszyć rozmiar plików
+D) Aby poprawić pozycję w wyszukiwarce
